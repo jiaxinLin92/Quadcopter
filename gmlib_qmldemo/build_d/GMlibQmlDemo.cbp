@@ -207,10 +207,22 @@
       <Unit filename="C:/quadcopter/gmlib_qmldemo/hidmanager/standardhidmanager.h">
          <Option target="GMlibQmlDemo"/>
       </Unit>
+      <Unit filename="C:/quadcopter/gmlib_qmldemo/motor.cpp">
+         <Option target="GMlibQmlDemo"/>
+      </Unit>
+      <Unit filename="C:/quadcopter/gmlib_qmldemo/motor.h">
+         <Option target="GMlibQmlDemo"/>
+      </Unit>
       <Unit filename="C:/quadcopter/gmlib_qmldemo/plane.cpp">
          <Option target="GMlibQmlDemo"/>
       </Unit>
       <Unit filename="C:/quadcopter/gmlib_qmldemo/plane.h">
+         <Option target="GMlibQmlDemo"/>
+      </Unit>
+      <Unit filename="C:/quadcopter/gmlib_qmldemo/rotor.cpp">
+         <Option target="GMlibQmlDemo"/>
+      </Unit>
+      <Unit filename="C:/quadcopter/gmlib_qmldemo/rotor.h">
          <Option target="GMlibQmlDemo"/>
       </Unit>
       <Unit filename="C:/quadcopter/gmlib_qmldemo/scenario.cpp">

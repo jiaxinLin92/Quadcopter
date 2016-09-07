@@ -27,6 +27,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GMlibQmlDemo.dir/scenario.cpp.obj"
   "CMakeFiles/GMlibQmlDemo.dir/body.cpp.obj"
   "CMakeFiles/GMlibQmlDemo.dir/plane.cpp.obj"
+  "CMakeFiles/GMlibQmlDemo.dir/rotor.cpp.obj"
+  "CMakeFiles/GMlibQmlDemo.dir/motor.cpp.obj"
   "CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidaction.cpp.obj"
   "CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidmanager.cpp.obj"
   "CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidmanagertreemodel.cpp.obj"

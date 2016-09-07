@@ -5819,6 +5819,20 @@ memory
 -
 
 C:/quadcopter/gmlib_qmldemo/body.cpp
+body.h
+C:/quadcopter/gmlib_qmldemo/body.h
+../gmlib/modules/parametrics/src/surfaces/gmpcylinder.h
+C:/quadcopter/gmlib/modules/parametrics/src/surfaces/gmpcylinder.h
+
+C:/quadcopter/gmlib_qmldemo/body.h
+../gmlib/modules/parametrics/src/gmpsurf.h
+C:/quadcopter/gmlib/modules/parametrics/src/gmpsurf.h
+parametrics/gmpsphere
+-
+application/gmlibwrapper.h
+C:/quadcopter/gmlib_qmldemo/application/gmlibwrapper.h
+QObject
+-
 
 C:/quadcopter/gmlib_qmldemo/build_d/application/moc_fboinsgrenderer.cpp
 ../../application/fboinsgrenderer.h
@@ -6052,6 +6066,8 @@ C:/quadcopter/gmlib_qmldemo/hidmanager/hidinputevent.h
 memory
 -
 
+C:/quadcopter/gmlib_qmldemo/motor.cpp
+
 C:/quadcopter/gmlib_qmldemo/plane.cpp
 plane.h
 C:/quadcopter/gmlib_qmldemo/plane.h
@@ -6066,6 +6082,8 @@ C:/quadcopter/gmlib_qmldemo/application/gmlibwrapper.h
 QObject
 -
 
+C:/quadcopter/gmlib_qmldemo/rotor.cpp
+
 C:/quadcopter/gmlib_qmldemo/scenario.cpp
 scenario.h
 C:/quadcopter/gmlib_qmldemo/scenario.h
@@ -6073,6 +6091,8 @@ plane.h
 C:/quadcopter/gmlib_qmldemo/plane.h
 testtorus.h
 C:/quadcopter/gmlib_qmldemo/testtorus.h
+body.h
+C:/quadcopter/gmlib_qmldemo/body.h
 gmOpenglModule
 -
 gmSceneModule

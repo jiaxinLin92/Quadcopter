@@ -528,10 +528,60 @@ CMakeFiles/GMlibQmlDemo.dir/plane.cpp.obj.provides: CMakeFiles/GMlibQmlDemo.dir/
 CMakeFiles/GMlibQmlDemo.dir/plane.cpp.obj.provides.build: CMakeFiles/GMlibQmlDemo.dir/plane.cpp.obj
 
 
+CMakeFiles/GMlibQmlDemo.dir/rotor.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/flags.make
+CMakeFiles/GMlibQmlDemo.dir/rotor.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/includes_CXX.rsp
+CMakeFiles/GMlibQmlDemo.dir/rotor.cpp.obj: ../rotor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/GMlibQmlDemo.dir/rotor.cpp.obj"
+	C:\Qt\Tools\mingw530_32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GMlibQmlDemo.dir\rotor.cpp.obj -c C:\quadcopter\gmlib_qmldemo\rotor.cpp
+
+CMakeFiles/GMlibQmlDemo.dir/rotor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GMlibQmlDemo.dir/rotor.cpp.i"
+	C:\Qt\Tools\mingw530_32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\quadcopter\gmlib_qmldemo\rotor.cpp > CMakeFiles\GMlibQmlDemo.dir\rotor.cpp.i
+
+CMakeFiles/GMlibQmlDemo.dir/rotor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GMlibQmlDemo.dir/rotor.cpp.s"
+	C:\Qt\Tools\mingw530_32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\quadcopter\gmlib_qmldemo\rotor.cpp -o CMakeFiles\GMlibQmlDemo.dir\rotor.cpp.s
+
+CMakeFiles/GMlibQmlDemo.dir/rotor.cpp.obj.requires:
+
+.PHONY : CMakeFiles/GMlibQmlDemo.dir/rotor.cpp.obj.requires
+
+CMakeFiles/GMlibQmlDemo.dir/rotor.cpp.obj.provides: CMakeFiles/GMlibQmlDemo.dir/rotor.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\GMlibQmlDemo.dir\build.make CMakeFiles/GMlibQmlDemo.dir/rotor.cpp.obj.provides.build
+.PHONY : CMakeFiles/GMlibQmlDemo.dir/rotor.cpp.obj.provides
+
+CMakeFiles/GMlibQmlDemo.dir/rotor.cpp.obj.provides.build: CMakeFiles/GMlibQmlDemo.dir/rotor.cpp.obj
+
+
+CMakeFiles/GMlibQmlDemo.dir/motor.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/flags.make
+CMakeFiles/GMlibQmlDemo.dir/motor.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/includes_CXX.rsp
+CMakeFiles/GMlibQmlDemo.dir/motor.cpp.obj: ../motor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/GMlibQmlDemo.dir/motor.cpp.obj"
+	C:\Qt\Tools\mingw530_32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GMlibQmlDemo.dir\motor.cpp.obj -c C:\quadcopter\gmlib_qmldemo\motor.cpp
+
+CMakeFiles/GMlibQmlDemo.dir/motor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GMlibQmlDemo.dir/motor.cpp.i"
+	C:\Qt\Tools\mingw530_32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\quadcopter\gmlib_qmldemo\motor.cpp > CMakeFiles\GMlibQmlDemo.dir\motor.cpp.i
+
+CMakeFiles/GMlibQmlDemo.dir/motor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GMlibQmlDemo.dir/motor.cpp.s"
+	C:\Qt\Tools\mingw530_32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\quadcopter\gmlib_qmldemo\motor.cpp -o CMakeFiles\GMlibQmlDemo.dir\motor.cpp.s
+
+CMakeFiles/GMlibQmlDemo.dir/motor.cpp.obj.requires:
+
+.PHONY : CMakeFiles/GMlibQmlDemo.dir/motor.cpp.obj.requires
+
+CMakeFiles/GMlibQmlDemo.dir/motor.cpp.obj.provides: CMakeFiles/GMlibQmlDemo.dir/motor.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\GMlibQmlDemo.dir\build.make CMakeFiles/GMlibQmlDemo.dir/motor.cpp.obj.provides.build
+.PHONY : CMakeFiles/GMlibQmlDemo.dir/motor.cpp.obj.provides
+
+CMakeFiles/GMlibQmlDemo.dir/motor.cpp.obj.provides.build: CMakeFiles/GMlibQmlDemo.dir/motor.cpp.obj
+
+
 CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidaction.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/flags.make
 CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidaction.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/includes_CXX.rsp
 CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidaction.cpp.obj: hidmanager/moc_hidaction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidaction.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidaction.cpp.obj"
 	C:\Qt\Tools\mingw530_32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GMlibQmlDemo.dir\hidmanager\moc_hidaction.cpp.obj -c C:\quadcopter\gmlib_qmldemo\build_d\hidmanager\moc_hidaction.cpp
 
 CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidaction.cpp.i: cmake_force
@@ -556,7 +606,7 @@ CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidaction.cpp.obj.provides.build: CMa
 CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidmanager.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/flags.make
 CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidmanager.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/includes_CXX.rsp
 CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidmanager.cpp.obj: hidmanager/moc_hidmanager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidmanager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidmanager.cpp.obj"
 	C:\Qt\Tools\mingw530_32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GMlibQmlDemo.dir\hidmanager\moc_hidmanager.cpp.obj -c C:\quadcopter\gmlib_qmldemo\build_d\hidmanager\moc_hidmanager.cpp
 
 CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidmanager.cpp.i: cmake_force
@@ -581,7 +631,7 @@ CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidmanager.cpp.obj.provides.build: CM
 CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidmanagertreemodel.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/flags.make
 CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidmanagertreemodel.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/includes_CXX.rsp
 CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidmanagertreemodel.cpp.obj: hidmanager/moc_hidmanagertreemodel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidmanagertreemodel.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidmanagertreemodel.cpp.obj"
 	C:\Qt\Tools\mingw530_32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GMlibQmlDemo.dir\hidmanager\moc_hidmanagertreemodel.cpp.obj -c C:\quadcopter\gmlib_qmldemo\build_d\hidmanager\moc_hidmanagertreemodel.cpp
 
 CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidmanagertreemodel.cpp.i: cmake_force
@@ -606,7 +656,7 @@ CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidmanagertreemodel.cpp.obj.provides.
 CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_standardhidmanager.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/flags.make
 CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_standardhidmanager.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/includes_CXX.rsp
 CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_standardhidmanager.cpp.obj: hidmanager/moc_standardhidmanager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_standardhidmanager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_standardhidmanager.cpp.obj"
 	C:\Qt\Tools\mingw530_32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GMlibQmlDemo.dir\hidmanager\moc_standardhidmanager.cpp.obj -c C:\quadcopter\gmlib_qmldemo\build_d\hidmanager\moc_standardhidmanager.cpp
 
 CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_standardhidmanager.cpp.i: cmake_force
@@ -631,7 +681,7 @@ CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_standardhidmanager.cpp.obj.provides.b
 CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_defaulthidmanager.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/flags.make
 CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_defaulthidmanager.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/includes_CXX.rsp
 CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_defaulthidmanager.cpp.obj: hidmanager/moc_defaulthidmanager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_defaulthidmanager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_defaulthidmanager.cpp.obj"
 	C:\Qt\Tools\mingw530_32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GMlibQmlDemo.dir\hidmanager\moc_defaulthidmanager.cpp.obj -c C:\quadcopter\gmlib_qmldemo\build_d\hidmanager\moc_defaulthidmanager.cpp
 
 CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_defaulthidmanager.cpp.i: cmake_force
@@ -656,7 +706,7 @@ CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_defaulthidmanager.cpp.obj.provides.bu
 CMakeFiles/GMlibQmlDemo.dir/application/moc_fboinsgrenderer.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/flags.make
 CMakeFiles/GMlibQmlDemo.dir/application/moc_fboinsgrenderer.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/includes_CXX.rsp
 CMakeFiles/GMlibQmlDemo.dir/application/moc_fboinsgrenderer.cpp.obj: application/moc_fboinsgrenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/GMlibQmlDemo.dir/application/moc_fboinsgrenderer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/GMlibQmlDemo.dir/application/moc_fboinsgrenderer.cpp.obj"
 	C:\Qt\Tools\mingw530_32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GMlibQmlDemo.dir\application\moc_fboinsgrenderer.cpp.obj -c C:\quadcopter\gmlib_qmldemo\build_d\application\moc_fboinsgrenderer.cpp
 
 CMakeFiles/GMlibQmlDemo.dir/application/moc_fboinsgrenderer.cpp.i: cmake_force
@@ -681,7 +731,7 @@ CMakeFiles/GMlibQmlDemo.dir/application/moc_fboinsgrenderer.cpp.obj.provides.bui
 CMakeFiles/GMlibQmlDemo.dir/application/moc_gmlibwrapper.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/flags.make
 CMakeFiles/GMlibQmlDemo.dir/application/moc_gmlibwrapper.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/includes_CXX.rsp
 CMakeFiles/GMlibQmlDemo.dir/application/moc_gmlibwrapper.cpp.obj: application/moc_gmlibwrapper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/GMlibQmlDemo.dir/application/moc_gmlibwrapper.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/GMlibQmlDemo.dir/application/moc_gmlibwrapper.cpp.obj"
 	C:\Qt\Tools\mingw530_32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GMlibQmlDemo.dir\application\moc_gmlibwrapper.cpp.obj -c C:\quadcopter\gmlib_qmldemo\build_d\application\moc_gmlibwrapper.cpp
 
 CMakeFiles/GMlibQmlDemo.dir/application/moc_gmlibwrapper.cpp.i: cmake_force
@@ -706,7 +756,7 @@ CMakeFiles/GMlibQmlDemo.dir/application/moc_gmlibwrapper.cpp.obj.provides.build:
 CMakeFiles/GMlibQmlDemo.dir/application/moc_guiapplication.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/flags.make
 CMakeFiles/GMlibQmlDemo.dir/application/moc_guiapplication.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/includes_CXX.rsp
 CMakeFiles/GMlibQmlDemo.dir/application/moc_guiapplication.cpp.obj: application/moc_guiapplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/GMlibQmlDemo.dir/application/moc_guiapplication.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/GMlibQmlDemo.dir/application/moc_guiapplication.cpp.obj"
 	C:\Qt\Tools\mingw530_32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GMlibQmlDemo.dir\application\moc_guiapplication.cpp.obj -c C:\quadcopter\gmlib_qmldemo\build_d\application\moc_guiapplication.cpp
 
 CMakeFiles/GMlibQmlDemo.dir/application/moc_guiapplication.cpp.i: cmake_force
@@ -731,7 +781,7 @@ CMakeFiles/GMlibQmlDemo.dir/application/moc_guiapplication.cpp.obj.provides.buil
 CMakeFiles/GMlibQmlDemo.dir/application/moc_window.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/flags.make
 CMakeFiles/GMlibQmlDemo.dir/application/moc_window.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/includes_CXX.rsp
 CMakeFiles/GMlibQmlDemo.dir/application/moc_window.cpp.obj: application/moc_window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/GMlibQmlDemo.dir/application/moc_window.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/GMlibQmlDemo.dir/application/moc_window.cpp.obj"
 	C:\Qt\Tools\mingw530_32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GMlibQmlDemo.dir\application\moc_window.cpp.obj -c C:\quadcopter\gmlib_qmldemo\build_d\application\moc_window.cpp
 
 CMakeFiles/GMlibQmlDemo.dir/application/moc_window.cpp.i: cmake_force
@@ -756,7 +806,7 @@ CMakeFiles/GMlibQmlDemo.dir/application/moc_window.cpp.obj.provides.build: CMake
 CMakeFiles/GMlibQmlDemo.dir/moc_scenario.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/flags.make
 CMakeFiles/GMlibQmlDemo.dir/moc_scenario.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/includes_CXX.rsp
 CMakeFiles/GMlibQmlDemo.dir/moc_scenario.cpp.obj: moc_scenario.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/GMlibQmlDemo.dir/moc_scenario.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/GMlibQmlDemo.dir/moc_scenario.cpp.obj"
 	C:\Qt\Tools\mingw530_32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GMlibQmlDemo.dir\moc_scenario.cpp.obj -c C:\quadcopter\gmlib_qmldemo\build_d\moc_scenario.cpp
 
 CMakeFiles/GMlibQmlDemo.dir/moc_scenario.cpp.i: cmake_force
@@ -781,7 +831,7 @@ CMakeFiles/GMlibQmlDemo.dir/moc_scenario.cpp.obj.provides.build: CMakeFiles/GMli
 CMakeFiles/GMlibQmlDemo.dir/qrc_application.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/flags.make
 CMakeFiles/GMlibQmlDemo.dir/qrc_application.cpp.obj: CMakeFiles/GMlibQmlDemo.dir/includes_CXX.rsp
 CMakeFiles/GMlibQmlDemo.dir/qrc_application.cpp.obj: qrc_application.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/GMlibQmlDemo.dir/qrc_application.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/GMlibQmlDemo.dir/qrc_application.cpp.obj"
 	C:\Qt\Tools\mingw530_32\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GMlibQmlDemo.dir\qrc_application.cpp.obj -c C:\quadcopter\gmlib_qmldemo\build_d\qrc_application.cpp
 
 CMakeFiles/GMlibQmlDemo.dir/qrc_application.cpp.i: cmake_force
@@ -822,6 +872,8 @@ GMlibQmlDemo_OBJECTS = \
 "CMakeFiles/GMlibQmlDemo.dir/scenario.cpp.obj" \
 "CMakeFiles/GMlibQmlDemo.dir/body.cpp.obj" \
 "CMakeFiles/GMlibQmlDemo.dir/plane.cpp.obj" \
+"CMakeFiles/GMlibQmlDemo.dir/rotor.cpp.obj" \
+"CMakeFiles/GMlibQmlDemo.dir/motor.cpp.obj" \
 "CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidaction.cpp.obj" \
 "CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidmanager.cpp.obj" \
 "CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidmanagertreemodel.cpp.obj" \
@@ -854,6 +906,8 @@ bin/GMlibQmlDemo.exe: CMakeFiles/GMlibQmlDemo.dir/application/main.cpp.obj
 bin/GMlibQmlDemo.exe: CMakeFiles/GMlibQmlDemo.dir/scenario.cpp.obj
 bin/GMlibQmlDemo.exe: CMakeFiles/GMlibQmlDemo.dir/body.cpp.obj
 bin/GMlibQmlDemo.exe: CMakeFiles/GMlibQmlDemo.dir/plane.cpp.obj
+bin/GMlibQmlDemo.exe: CMakeFiles/GMlibQmlDemo.dir/rotor.cpp.obj
+bin/GMlibQmlDemo.exe: CMakeFiles/GMlibQmlDemo.dir/motor.cpp.obj
 bin/GMlibQmlDemo.exe: CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidaction.cpp.obj
 bin/GMlibQmlDemo.exe: CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidmanager.cpp.obj
 bin/GMlibQmlDemo.exe: CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidmanagertreemodel.cpp.obj
@@ -875,7 +929,7 @@ bin/GMlibQmlDemo.exe: C:/Qt/5.7/mingw53_32/lib/libQt5Cored.a
 bin/GMlibQmlDemo.exe: CMakeFiles/GMlibQmlDemo.dir/linklibs.rsp
 bin/GMlibQmlDemo.exe: CMakeFiles/GMlibQmlDemo.dir/objects1.rsp
 bin/GMlibQmlDemo.exe: CMakeFiles/GMlibQmlDemo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Linking CXX executable bin\GMlibQmlDemo.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\quadcopter\gmlib_qmldemo\build_d\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Linking CXX executable bin\GMlibQmlDemo.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GMlibQmlDemo.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -900,6 +954,8 @@ CMakeFiles/GMlibQmlDemo.dir/requires: CMakeFiles/GMlibQmlDemo.dir/application/ma
 CMakeFiles/GMlibQmlDemo.dir/requires: CMakeFiles/GMlibQmlDemo.dir/scenario.cpp.obj.requires
 CMakeFiles/GMlibQmlDemo.dir/requires: CMakeFiles/GMlibQmlDemo.dir/body.cpp.obj.requires
 CMakeFiles/GMlibQmlDemo.dir/requires: CMakeFiles/GMlibQmlDemo.dir/plane.cpp.obj.requires
+CMakeFiles/GMlibQmlDemo.dir/requires: CMakeFiles/GMlibQmlDemo.dir/rotor.cpp.obj.requires
+CMakeFiles/GMlibQmlDemo.dir/requires: CMakeFiles/GMlibQmlDemo.dir/motor.cpp.obj.requires
 CMakeFiles/GMlibQmlDemo.dir/requires: CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidaction.cpp.obj.requires
 CMakeFiles/GMlibQmlDemo.dir/requires: CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidmanager.cpp.obj.requires
 CMakeFiles/GMlibQmlDemo.dir/requires: CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_hidmanagertreemodel.cpp.obj.requires

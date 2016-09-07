@@ -115,6 +115,8 @@ void GMlibWrapper::initialize() {
 //  _select_renderer->setSelectRboName("select_render_color_rbo");
 }
 
+
+
 void GMlibWrapper::cleanUp() {
 
   stop();

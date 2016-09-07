@@ -29,8 +29,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/quadcopter/gmlib_qmldemo/build_d/hidmanager/moc_standardhidmanager.cpp" "C:/quadcopter/gmlib_qmldemo/build_d/CMakeFiles/GMlibQmlDemo.dir/hidmanager/moc_standardhidmanager.cpp.obj"
   "C:/quadcopter/gmlib_qmldemo/hidmanager/standardhidmanager.cpp" "C:/quadcopter/gmlib_qmldemo/build_d/CMakeFiles/GMlibQmlDemo.dir/hidmanager/standardhidmanager.cpp.obj"
   "C:/quadcopter/gmlib_qmldemo/build_d/moc_scenario.cpp" "C:/quadcopter/gmlib_qmldemo/build_d/CMakeFiles/GMlibQmlDemo.dir/moc_scenario.cpp.obj"
+  "C:/quadcopter/gmlib_qmldemo/motor.cpp" "C:/quadcopter/gmlib_qmldemo/build_d/CMakeFiles/GMlibQmlDemo.dir/motor.cpp.obj"
   "C:/quadcopter/gmlib_qmldemo/plane.cpp" "C:/quadcopter/gmlib_qmldemo/build_d/CMakeFiles/GMlibQmlDemo.dir/plane.cpp.obj"
   "C:/quadcopter/gmlib_qmldemo/build_d/qrc_application.cpp" "C:/quadcopter/gmlib_qmldemo/build_d/CMakeFiles/GMlibQmlDemo.dir/qrc_application.cpp.obj"
+  "C:/quadcopter/gmlib_qmldemo/rotor.cpp" "C:/quadcopter/gmlib_qmldemo/build_d/CMakeFiles/GMlibQmlDemo.dir/rotor.cpp.obj"
   "C:/quadcopter/gmlib_qmldemo/scenario.cpp" "C:/quadcopter/gmlib_qmldemo/build_d/CMakeFiles/GMlibQmlDemo.dir/scenario.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

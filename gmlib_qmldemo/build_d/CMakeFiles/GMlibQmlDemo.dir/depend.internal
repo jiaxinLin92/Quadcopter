@@ -2237,7 +2237,182 @@ CMakeFiles/GMlibQmlDemo.dir/application/window.cpp.obj
  C:/quadcopter/gmlib_qmldemo/application/window.cpp
  C:/quadcopter/gmlib_qmldemo/application/window.h
 CMakeFiles/GMlibQmlDemo.dir/body.cpp.obj
+ C:/Program Files (x86)/glew/include/GL/glew.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/QObject
+ C:/Qt/5.7/mingw53_32/include/QtCore/QRectF
+ C:/Qt/5.7/mingw53_32/include/QtCore/QSize
+ C:/Qt/5.7/mingw53_32/include/QtCore/QStringListModel
+ C:/Qt/5.7/mingw53_32/include/QtCore/qabstractitemmodel.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qalgorithms.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qarraydata.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qatomic.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qatomic_bootstrap.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qatomic_cxx11.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qatomic_msvc.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qbasicatomic.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qbytearray.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qbytearraylist.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qchar.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qcompilerdetection.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qconfig.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qcontainerfwd.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qcontiguouscache.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qcoreevent.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qdebug.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qfeatures.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qflags.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qgenericatomic.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qglobal.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qglobalstatic.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qhash.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qhashfunctions.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qiodevice.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qisenum.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qiterator.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qlist.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qlocale.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qlogging.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qmap.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qmargins.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qmetatype.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qmutex.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qnamespace.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qnumeric.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qobject.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qobject_impl.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qobjectdefs.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qobjectdefs_impl.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qpair.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qpoint.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qprocessordetection.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qrect.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qrefcount.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qregexp.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qscopedpointer.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qset.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qshareddata.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qsharedpointer.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qsharedpointer_impl.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qsize.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qstring.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qstringbuilder.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qstringlist.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qstringlistmodel.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qstringmatcher.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qsysinfo.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qsystemdetection.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qtextstream.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qtypeinfo.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qtypetraits.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qvariant.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qvarlengtharray.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qvector.h
+ C:/Qt/5.7/mingw53_32/include/QtCore/qversiontagging.h
+ C:/quadcopter/gmlib/build_dinfo/include/core/containers/gmarray.h
+ C:/quadcopter/gmlib/build_dinfo/include/core/containers/gmdmatrix.h
+ C:/quadcopter/gmlib/build_dinfo/include/core/containers/gmdvector.h
+ C:/quadcopter/gmlib/build_dinfo/include/core/gmpoint
+ C:/quadcopter/gmlib/build_dinfo/include/core/types/gmmatrix.h
+ C:/quadcopter/gmlib/build_dinfo/include/core/types/gmpoint.h
+ C:/quadcopter/gmlib/build_dinfo/include/core/utils/gmcolor.h
+ C:/quadcopter/gmlib/build_dinfo/include/core/utils/gmdivideddifferences.h
+ C:/quadcopter/gmlib/build_dinfo/include/core/utils/gmsortobject.h
+ C:/quadcopter/gmlib/build_dinfo/include/core/utils/gmstream.h
+ C:/quadcopter/gmlib/build_dinfo/include/core/utils/gmstring.h
+ C:/quadcopter/gmlib/build_dinfo/include/core/utils/gmtimer.h
+ C:/quadcopter/gmlib/build_dinfo/include/core/utils/gmutils.h
+ C:/quadcopter/gmlib/build_dinfo/include/opengl/bufferobjects/gmindexbufferobject.h
+ C:/quadcopter/gmlib/build_dinfo/include/opengl/bufferobjects/gmuniformbufferobject.h
+ C:/quadcopter/gmlib/build_dinfo/include/opengl/bufferobjects/gmvertexbufferobject.h
+ C:/quadcopter/gmlib/build_dinfo/include/opengl/gmframebufferobject.h
+ C:/quadcopter/gmlib/build_dinfo/include/opengl/gmopengl.h
+ C:/quadcopter/gmlib/build_dinfo/include/opengl/gmopenglmanager.h
+ C:/quadcopter/gmlib/build_dinfo/include/opengl/gmprogram.h
+ C:/quadcopter/gmlib/build_dinfo/include/opengl/gmrenderbufferobject.h
+ C:/quadcopter/gmlib/build_dinfo/include/opengl/gmtexture.h
+ C:/quadcopter/gmlib/build_dinfo/include/opengl/shaders/gmfragmentshader.h
+ C:/quadcopter/gmlib/build_dinfo/include/opengl/shaders/gmvertexshader.h
+ C:/quadcopter/gmlib/build_dinfo/include/parametrics/gmpsphere
+ C:/quadcopter/gmlib/build_dinfo/include/parametrics/surfaces/gmpsphere.h
+ C:/quadcopter/gmlib/build_dinfo/include/scene/camera/gmcamera.h
+ C:/quadcopter/gmlib/build_dinfo/include/scene/gmscene.h
+ C:/quadcopter/gmlib/build_dinfo/include/scene/gmsceneobject.h
+ C:/quadcopter/gmlib/build_dinfo/include/scene/gmvisualizer.h
+ C:/quadcopter/gmlib/build_dinfo/include/scene/light/gmlight.h
+ C:/quadcopter/gmlib/build_dinfo/include/scene/render/gmdefaultrenderer.h
+ C:/quadcopter/gmlib/build_dinfo/include/scene/utils/gmmaterial.h
+ C:/quadcopter/gmlib/modules/core/src/containers/gmarray.c
+ C:/quadcopter/gmlib/modules/core/src/containers/gmarray.h
+ C:/quadcopter/gmlib/modules/core/src/containers/gmarrayt.c
+ C:/quadcopter/gmlib/modules/core/src/containers/gmarrayt.h
+ C:/quadcopter/gmlib/modules/core/src/containers/gmdmatrix.c
+ C:/quadcopter/gmlib/modules/core/src/containers/gmdmatrix.h
+ C:/quadcopter/gmlib/modules/core/src/containers/gmdvector.c
+ C:/quadcopter/gmlib/modules/core/src/containers/gmdvector.h
+ C:/quadcopter/gmlib/modules/core/src/gmglobal.h
+ C:/quadcopter/gmlib/modules/core/src/static/gmstaticproc.c
+ C:/quadcopter/gmlib/modules/core/src/static/gmstaticproc.h
+ C:/quadcopter/gmlib/modules/core/src/static/gmstaticproc2.c
+ C:/quadcopter/gmlib/modules/core/src/static/gmstaticproc2.h
+ C:/quadcopter/gmlib/modules/core/src/types/gmangle.h
+ C:/quadcopter/gmlib/modules/core/src/types/gmmatrix.c
+ C:/quadcopter/gmlib/modules/core/src/types/gmmatrix.h
+ C:/quadcopter/gmlib/modules/core/src/types/gmpoint.c
+ C:/quadcopter/gmlib/modules/core/src/types/gmpoint.h
+ C:/quadcopter/gmlib/modules/core/src/utils/gmcolor.h
+ C:/quadcopter/gmlib/modules/core/src/utils/gmdivideddifferences.c
+ C:/quadcopter/gmlib/modules/core/src/utils/gmdivideddifferences.h
+ C:/quadcopter/gmlib/modules/core/src/utils/gmsortobject.c
+ C:/quadcopter/gmlib/modules/core/src/utils/gmsortobject.h
+ C:/quadcopter/gmlib/modules/core/src/utils/gmstream.h
+ C:/quadcopter/gmlib/modules/core/src/utils/gmstring.c
+ C:/quadcopter/gmlib/modules/core/src/utils/gmstring.h
+ C:/quadcopter/gmlib/modules/core/src/utils/gmtimer.c
+ C:/quadcopter/gmlib/modules/core/src/utils/gmtimer.h
+ C:/quadcopter/gmlib/modules/core/src/utils/gmutils.h
+ C:/quadcopter/gmlib/modules/opengl/src/bufferobjects/gmindexbufferobject.h
+ C:/quadcopter/gmlib/modules/opengl/src/bufferobjects/gmuniformbufferobject.h
+ C:/quadcopter/gmlib/modules/opengl/src/bufferobjects/gmvertexbufferobject.h
+ C:/quadcopter/gmlib/modules/opengl/src/gmbufferobject.h
+ C:/quadcopter/gmlib/modules/opengl/src/gmframebufferobject.h
+ C:/quadcopter/gmlib/modules/opengl/src/gmglobject.h
+ C:/quadcopter/gmlib/modules/opengl/src/gmopengl.h
+ C:/quadcopter/gmlib/modules/opengl/src/gmopenglmanager.h
+ C:/quadcopter/gmlib/modules/opengl/src/gmprogram.h
+ C:/quadcopter/gmlib/modules/opengl/src/gmrenderbufferobject.h
+ C:/quadcopter/gmlib/modules/opengl/src/gmshader.h
+ C:/quadcopter/gmlib/modules/opengl/src/gmtexture.h
+ C:/quadcopter/gmlib/modules/opengl/src/shaders/gmfragmentshader.h
+ C:/quadcopter/gmlib/modules/opengl/src/shaders/gmvertexshader.h
+ C:/quadcopter/gmlib/modules/opengl/src/utils/gmutils.h
+ C:/quadcopter/gmlib/modules/parametrics/src/gmparametrics.c
+ C:/quadcopter/gmlib/modules/parametrics/src/gmparametrics.h
+ C:/quadcopter/gmlib/modules/parametrics/src/gmpsurf.c
+ C:/quadcopter/gmlib/modules/parametrics/src/gmpsurf.h
+ C:/quadcopter/gmlib/modules/parametrics/src/surfaces/gmpcylinder.c
+ C:/quadcopter/gmlib/modules/parametrics/src/surfaces/gmpcylinder.h
+ C:/quadcopter/gmlib/modules/parametrics/src/surfaces/gmpsphere.c
+ C:/quadcopter/gmlib/modules/parametrics/src/surfaces/gmpsphere.h
+ C:/quadcopter/gmlib/modules/parametrics/src/visualizers/gmpsurfdefaultvisualizer.c
+ C:/quadcopter/gmlib/modules/parametrics/src/visualizers/gmpsurfdefaultvisualizer.h
+ C:/quadcopter/gmlib/modules/parametrics/src/visualizers/gmpsurfvisualizer.c
+ C:/quadcopter/gmlib/modules/parametrics/src/visualizers/gmpsurfvisualizer.h
+ C:/quadcopter/gmlib/modules/scene/src/camera/gmcamera.h
+ C:/quadcopter/gmlib/modules/scene/src/event/gmsceneobjectattribute.h
+ C:/quadcopter/gmlib/modules/scene/src/gmscaleobject.h
+ C:/quadcopter/gmlib/modules/scene/src/gmscene.h
+ C:/quadcopter/gmlib/modules/scene/src/gmsceneobject.h
+ C:/quadcopter/gmlib/modules/scene/src/gmvisualizer.h
+ C:/quadcopter/gmlib/modules/scene/src/light/gmlight.h
+ C:/quadcopter/gmlib/modules/scene/src/render/gmdefaultrenderer.h
+ C:/quadcopter/gmlib/modules/scene/src/render/gmrenderer.h
+ C:/quadcopter/gmlib/modules/scene/src/render/gmrendertarget.h
+ C:/quadcopter/gmlib/modules/scene/src/utils/gmmaterial.h
+ C:/quadcopter/gmlib/modules/scene/src/visualizers/gmcoordsysrepvisualizer.h
+ C:/quadcopter/gmlib/modules/scene/src/visualizers/gmstdrepvisualizer.h
+ C:/quadcopter/gmlib_qmldemo/application/gmlibwrapper.h
  C:/quadcopter/gmlib_qmldemo/body.cpp
+ C:/quadcopter/gmlib_qmldemo/body.h
 CMakeFiles/GMlibQmlDemo.dir/hidmanager/defaulthidmanager.cpp.obj
  C:/Program Files (x86)/glew/include/GL/glew.h
  C:/Qt/5.7/mingw53_32/include/QtCore/QEvent
@@ -5434,6 +5609,8 @@ CMakeFiles/GMlibQmlDemo.dir/moc_scenario.cpp.obj
  C:/quadcopter/gmlib_qmldemo/application/gmlibwrapper.h
  C:/quadcopter/gmlib_qmldemo/build_d/moc_scenario.cpp
  C:/quadcopter/gmlib_qmldemo/scenario.h
+CMakeFiles/GMlibQmlDemo.dir/motor.cpp.obj
+ C:/quadcopter/gmlib_qmldemo/motor.cpp
 CMakeFiles/GMlibQmlDemo.dir/plane.cpp.obj
  C:/Program Files (x86)/glew/include/GL/glew.h
  C:/Qt/5.7/mingw53_32/include/QtCore/QObject
@@ -5611,6 +5788,8 @@ CMakeFiles/GMlibQmlDemo.dir/plane.cpp.obj
  C:/quadcopter/gmlib_qmldemo/plane.h
 CMakeFiles/GMlibQmlDemo.dir/qrc_application.cpp.obj
  C:/quadcopter/gmlib_qmldemo/build_d/qrc_application.cpp
+CMakeFiles/GMlibQmlDemo.dir/rotor.cpp.obj
+ C:/quadcopter/gmlib_qmldemo/rotor.cpp
 CMakeFiles/GMlibQmlDemo.dir/scenario.cpp.obj
  C:/Program Files (x86)/glew/include/GL/glew.h
  C:/Qt/5.7/mingw53_32/include/QtCore/QList
@@ -6264,6 +6443,7 @@ CMakeFiles/GMlibQmlDemo.dir/scenario.cpp.obj
  C:/quadcopter/gmlib/modules/scene/src/visualizers/gmstdrepvisualizer.h
  C:/quadcopter/gmlib/modules/scene/src/visualizers/gmsurroundingspherevisualizer.h
  C:/quadcopter/gmlib_qmldemo/application/gmlibwrapper.h
+ C:/quadcopter/gmlib_qmldemo/body.h
  C:/quadcopter/gmlib_qmldemo/plane.h
  C:/quadcopter/gmlib_qmldemo/scenario.cpp
  C:/quadcopter/gmlib_qmldemo/scenario.h
