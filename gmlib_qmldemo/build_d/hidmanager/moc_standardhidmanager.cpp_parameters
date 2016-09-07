@@ -1,0 +1,9 @@
+-IC:/quadcopter/gmlib/build_dinfo/include
+-IC:/Program Files (x86)/glew/include
+-DGM_GL_DEBUG
+-DGM_STREAM
+-DGLEW_STATIC
+-DWIN32
+-o
+C:/quadcopter/gmlib_qmldemo/build_d/hidmanager/moc_standardhidmanager.cpp
+C:/quadcopter/gmlib_qmldemo/hidmanager/standardhidmanager.h
