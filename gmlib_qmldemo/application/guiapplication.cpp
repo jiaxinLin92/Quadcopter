@@ -3,6 +3,8 @@
 // local
 #include "window.h"
 #include "gmlibwrapper.h"
+#include "../controller.h"
+
 
 // hidmanager
 #include "../hidmanager/defaulthidmanager.h"
@@ -116,6 +118,94 @@ GuiApplication::afterOnSceneGraphInitialized() {
 
   connect( &_hidmanager,          SIGNAL(signOpenCloseHidHelp()),
            _window.rootObject(),  SIGNAL(toggleHidBindView()) );
+
+
+ //--------------------------------------------------------------------------------------------------------
+  // hover
+  QString ha_id_quadHover =
+      _hidmanager.registerHidAction( "Keys for movement",
+                                     "Hover",
+                                     "Hover",
+                         &_scenario, SIGNAL(Hover())
+                         );
+  // stop
+  QString ha_id_quadStop =
+      _hidmanager.registerHidAction( "Keys for movement",
+                                     "Stop",
+                                     "Stop",
+                         &_scenario, SIGNAL(Stop())
+                         );
+//up
+  QString ha_id_quadUp =
+      _hidmanager.registerHidAction( "Keys for movement",
+                                     "Up",
+                                     "Up",
+                         &_scenario, SIGNAL(Up())
+                         );
+//down
+  QString ha_id_quadDown =
+      _hidmanager.registerHidAction( "Keys for movement",
+                                     "Down",
+                                     "Down",
+                         &_scenario, SIGNAL(Down())
+                         );
+//pitching forward
+  QString ha_id_quadPitchUp =
+      _hidmanager.registerHidAction( "Keys for movement",
+                                     "Pitch forward",
+                                     "Pitch forward",
+                         &_scenario, SIGNAL(PitchForward())
+                         );
+//pitching backward
+  QString ha_id_quadPitchDown =
+      _hidmanager.registerHidAction( "Keys for movement",
+                                     "Pitch backward",
+                                     "Pitch backward",
+                         &_scenario, SIGNAL(PitchBackward())
+                         );
+
+  QString ha_id_quadYawLeft =
+      _hidmanager.registerHidAction( "Keys for movement",
+                                     "Yaw left ",
+                                     "Yaw left",
+                         &_scenario, SIGNAL(YawLeft())
+                         );
+
+  QString ha_id_quadYawRight =
+      _hidmanager.registerHidAction( "Keys for movement",
+                                     "Yaw right",
+                                     "Yaw right",
+                         &_scenario, SIGNAL(YawRight())
+                         );
+
+  QString ha_id_quadRollLeft =
+      _hidmanager.registerHidAction( "Keys for movement",
+                                     "Rolls left",
+                                     "Rolls left",
+                         &_scenario, SIGNAL(RollLeft())
+                         );
+
+  QString ha_id_quadRollRight =
+      _hidmanager.registerHidAction( "Keys for movement",
+                                     "Rolls right ",
+                                     "Rolls right ",
+                         &_scenario, SIGNAL(RollRight())
+                         );
+ //--------------------------------------------------------------------------------------------------------
+  _hidmanager.registerHidMapping( ha_id_quadHover,                    new KeyPressInput( Qt::Key_H ) );
+  _hidmanager.registerHidMapping( ha_id_quadStop,                     new KeyPressInput( Qt::Key_Space ) );
+
+  _hidmanager.registerHidMapping( ha_id_quadUp,                       new KeyPressInput( Qt::Key_Up ) );
+  _hidmanager.registerHidMapping( ha_id_quadDown,                     new KeyPressInput( Qt::Key_Down ) );
+
+  _hidmanager.registerHidMapping( ha_id_quadPitchUp,                  new KeyPressInput( Qt::Key_Q ) );
+  _hidmanager.registerHidMapping( ha_id_quadPitchDown,                new KeyPressInput( Qt::Key_E) );
+
+  _hidmanager.registerHidMapping( ha_id_quadYawLeft,                  new KeyPressInput( Qt::Key_W ) );
+  _hidmanager.registerHidMapping( ha_id_quadYawRight,                 new KeyPressInput( Qt::Key_S ) );
+
+  _hidmanager.registerHidMapping( ha_id_quadRollLeft,                 new KeyPressInput( Qt::Key_Left ) );
+  _hidmanager.registerHidMapping( ha_id_quadRollRight,                new KeyPressInput( Qt::Key_Right) );
 
   // Update RCPair name model
   _scenario.updateRCPairNameModel();
