@@ -8,3 +8,4 @@ Plane::Plane(GMlib::Point<float,3> p1, GMlib::Vector<float,3> v1, GMlib::Vector<
 }
 
 Plane::~Plane(){}
+

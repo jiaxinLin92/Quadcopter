@@ -15,4 +15,4 @@ public:
     ~Plane();
 };
 
-#endif // PLANE_H
+#endif

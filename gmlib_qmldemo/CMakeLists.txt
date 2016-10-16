@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD 14)
 if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Weverything")  # -Weverything equivalent to g++ -pedantic, -Werror and -Wall
 else()
-  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pedantic -Wall -Werror")
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pedantic -Wall")
 endif()
 
 # Nice name for the IDEs
@@ -74,13 +74,16 @@ set( HDRS
   application/guiapplication.h
   application/window.h
   application/utils.h
-
-  testtorus.h
-  scenario.h
-  body.h
+  
+  quadcopter.h
+  motors.h
+  frame.h
+  controller.h
+  box.h
   plane.h
-  rotor.h
-  motor.h
+  scenario.h
+  
+
 
   )
 
@@ -102,11 +105,18 @@ set( SRCS
 
   application/main.cpp
 
-  scenario.cpp
-  body.cpp
+  quadcopter.cpp
+
+
+
+  controller.cpp
+  box.cpp
   plane.cpp
-  rotor.cpp
-  motor.cpp
+  scenario.cpp
+  motors.cpp
+  frame.cpp
+
+
 
   )
 
@@ -125,7 +135,7 @@ QT5_WRAP_CPP( HDRS_MOC
   application/window.h
 
   scenario.h
-
+  controller.h
   )
 
 set( RCCS
