@@ -6,8 +6,7 @@
 
 
 #include "scenario.h"
-//// hidmanager
-//#include "hidmanager/defaulthidmanager.h"
+
 
 // gmlib
 #include <gmOpenglModule>

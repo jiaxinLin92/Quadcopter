@@ -8,8 +8,8 @@ class Plane;
 class Quadcopter;
 class Controller;
 class Box;
-class Collision;
-class Obstacles;
+
+
 
 // qt
 #include <QObject>

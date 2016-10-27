@@ -70,12 +70,12 @@ Quadcopter::Quadcopter(std::shared_ptr<GMlib::Camera> cam){
 
 
     inertiaMatrix_ = GMlib::SqMatrix<double,3> ();
-    inertiaMatrix_[0][0] = 0.047316;
+    inertiaMatrix_[0][0] = 0.47316;
     inertiaMatrix_[0][1] = 0;
     inertiaMatrix_[0][2] = 0;
 
     inertiaMatrix_[1][0] = 0;
-    inertiaMatrix_[1][1] = 0.047316;
+    inertiaMatrix_[1][1] = 0.47316;
     inertiaMatrix_[1][2] = 0;
 
     inertiaMatrix_[2][0] = 0;
@@ -162,7 +162,6 @@ void Quadcopter::computeStep(double dt){
     globalMatrix_ = getMatrixGlobal();
     globalMatrix_.invert();
 
-    vDotVector_ = (globalMatrix_*gravity_) + (1/mass_)*GMlib::Vector<float,3>(0.0, 0.0, sumF_);
 
     GMlib::SqMatrix<float,3> convertmatrix;
     for(int i = 0; i < 3; i++){
@@ -173,6 +172,9 @@ void Quadcopter::computeStep(double dt){
 //    std::cout<<"matrix 0"<< fromDtoFmatrix[0]<<std::endl;
 //    std::cout<<"matrix 2"<< fromDtoFmatrix[2]<<std::endl;
     set(getPos(), convertmatrix[0], convertmatrix[2]);
+
+
+    vDotVector_ = (globalMatrix_*gravity_) + (1/mass_)*GMlib::Vector<float,3>(0.0, 0.0, sumF_);
 
     auto pos_ = this->getPos();
     if((getPos() + vDotVector_ * dt)[2] > 0 && (getPos() + vDotVector_ * dt)[2] < 59){

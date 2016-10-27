@@ -8,30 +8,27 @@ Controller::Controller(Quadcopter* quadcopter){
 
 void Controller::quadHover() {
     auto hover = quadcopter_->getMotors();
-    for(int i = 0; i < 4;i++){
+    for(int i = 0; i < quad.size();i++){
         hover[i]->setHover();
     }
 }
 void Controller::quadStop() {
     auto quad = quadcopter_->getMotors();
-    for(int i = 0; i < 4;i++){
+    for(int i = 0; i < quad.size();i++){
         quad[i]->resetSpeed();
 
-//        quad[i]->resetYaw();
-//        quad[i]->resetPitch();
-//        quad[i]->resetRoll();
     }
 }
 
 void Controller::quadUp() {
     auto quad = quadcopter_->getMotors();
-    for(int i = 0; i < 4 ;i++){
+    for(int i = 0; i < quad.size() ;i++){
         quad[i]->setVelocity(0.2);
     }
 }
 void Controller::quadDown() {
     auto quad = quadcopter_->getMotors();
-    for(int i = 0; i < 4;i++){
+    for(int i = 0; i < quad.size();i++){
         quad[i]->setVelocity(-0.2);
     }
 }
